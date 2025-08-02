@@ -8,7 +8,7 @@ const heroButtonVariants = cva(
   {
     variants: {
       variant: {
-        primary: "bg-gradient-hero text-aerox-dark font-bold hover:scale-105 hover:shadow-lg transform-gpu duration-300 shadow-[0_0_20px_hsl(var(--aerox-cyan)/0.3)]",
+        primary: "bg-gradient-hero text-aerox-blue font-bold hover:scale-105 hover:shadow-lg transform-gpu duration-300 shadow-[0_0_20px_hsl(var(--aerox-orange)/0.3)]",
         secondary: "border border-primary bg-background/10 backdrop-blur-sm text-foreground hover:bg-primary/10 hover:text-primary",
         ghost: "text-foreground hover:bg-accent hover:text-accent-foreground",
       },

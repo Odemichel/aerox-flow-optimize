@@ -8,7 +8,7 @@ export const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <span className="text-aerox-dark font-bold text-sm">A</span>
+              <span className="text-aerox-blue font-bold text-sm">A</span>
             </div>
             <span className="text-xl font-bold bg-gradient-hero bg-clip-text text-transparent">
               AeroX

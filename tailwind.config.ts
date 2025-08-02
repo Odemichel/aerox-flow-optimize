@@ -54,9 +54,9 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				aerox: {
-					cyan: 'hsl(var(--aerox-cyan))',
-					purple: 'hsl(var(--aerox-purple))',
-					dark: 'hsl(var(--aerox-dark))',
+					orange: 'hsl(var(--aerox-orange))',
+					blue: 'hsl(var(--aerox-blue))',
+					'blue-light': 'hsl(var(--aerox-blue-light))',
 					surface: 'hsl(var(--aerox-surface))'
 				},
 				sidebar: {
@@ -97,8 +97,8 @@ export default {
 					'50%': { transform: 'translateY(-10px)' }
 				},
 				'glow': {
-					'0%, 100%': { boxShadow: '0 0 20px hsl(var(--aerox-cyan) / 0.3)' },
-					'50%': { boxShadow: '0 0 40px hsl(var(--aerox-cyan) / 0.6)' }
+					'0%, 100%': { boxShadow: '0 0 20px hsl(var(--aerox-orange) / 0.3)' },
+					'50%': { boxShadow: '0 0 40px hsl(var(--aerox-orange) / 0.6)' }
 				},
 				'gradient-shift': {
 					'0%, 100%': { backgroundPosition: '0% 50%' },
