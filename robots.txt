@@ -12,3 +12,10 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# Anciennes pages à bloquer (ex WordPress)
+Disallow: /sample-page
+Disallow: /accueil-aerox
+
+# Sitemap pour aider au crawl
+Sitemap: https://aeroxbefaster.com/sitemap.xml
