@@ -20,14 +20,14 @@ export const Navigation = () => {
             <a href="#features" className="text-muted-foreground hover:text-primary transition-colors">
               Fonctionnalités
             </a>
+            <a href="/aerodynamisme" className="text-muted-foreground hover:text-primary transition-colors">
+              Aérodynamisme
+            </a>
             <a href="#testimonials" className="text-muted-foreground hover:text-primary transition-colors">
               Témoignages
             </a>
             <a href="#pricing" className="text-muted-foreground hover:text-primary transition-colors">
               Tarifs
-            </a>
-            <a href="#support" className="text-muted-foreground hover:text-primary transition-colors">
-              Support
             </a>
           </div>
           

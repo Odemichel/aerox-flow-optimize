@@ -57,7 +57,9 @@ export default {
 					orange: 'hsl(var(--aerox-orange))',
 					blue: 'hsl(var(--aerox-blue))',
 					'blue-light': 'hsl(var(--aerox-blue-light))',
-					surface: 'hsl(var(--aerox-surface))'
+					surface: 'hsl(var(--aerox-surface))',
+					cyan: 'hsl(var(--aerox-cyan))',
+					purple: 'hsl(var(--aerox-purple))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -110,7 +112,9 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'float': 'float 3s ease-in-out infinite',
 				'glow': 'glow 2s ease-in-out infinite',
-				'gradient-shift': 'gradient-shift 3s ease-in-out infinite'
+				'gradient-shift': 'gradient-shift 3s ease-in-out infinite',
+				'gradient': 'gradient-shift 4s ease infinite',
+				'float-slow': 'float 6s ease-in-out infinite'
 			},
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
