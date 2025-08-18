@@ -7,9 +7,11 @@ export const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <span className="text-aerox-blue font-bold text-sm">A</span>
-            </div>
+            <img
+    src="/assets/Aerox-ico.png"
+    alt="Logo AeroX"
+    className="w-8 h-8"
+  />
             <span className="text-xl font-bold bg-gradient-hero bg-clip-text text-transparent">
               AeroX
             </span>

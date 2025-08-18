@@ -1,5 +1,5 @@
-import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
+import { Card, CardContent } from "./ui/card";
 
 const testimonials = [
   {
@@ -30,7 +30,7 @@ const testimonials = [
 
 export const Testimonials = () => {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="testimonials" className="py-24 relative overflow-hidden">
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-radial from-aerox-cyan/5 via-transparent to-aerox-purple/5"></div>
       
@@ -46,7 +46,7 @@ export const Testimonials = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Plus de 2,500 cyclistes nous font confiance pour améliorer leurs performances. 
+            Plus de 300 cyclistes nous font confiance pour améliorer leurs performances. 
             Découvrez leurs résultats exceptionnels.
           </p>
         </div>
@@ -90,7 +90,7 @@ export const Testimonials = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div className="space-y-2">
             <div className="text-3xl md:text-4xl font-bold bg-gradient-hero bg-clip-text text-transparent">
-              2,500+
+              300+
             </div>
             <div className="text-sm text-muted-foreground">Utilisateurs actifs</div>
           </div>

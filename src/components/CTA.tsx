@@ -1,10 +1,10 @@
-import { HeroButton } from "./ui/hero-button";
-import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
+import { Card, CardContent } from "./ui/card";
+import { HeroButton } from "./ui/hero-button";
 
 export const CTA = () => {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="pricing" className="py-24 relative overflow-hidden">
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-r from-aerox-cyan/10 via-aerox-purple/10 to-aerox-cyan/10 animate-gradient-shift"></div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-gradient-radial from-primary/5 to-transparent"></div>
@@ -64,7 +64,7 @@ export const CTA = () => {
             
             {/* CTA buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-              <HeroButton size="lg" className="animate-glow text-lg px-12 py-4">
+              <HeroButton size="lg" className=" text-lg px-12 py-4">
                 🚀 Télécharger maintenant
               </HeroButton>
               <HeroButton variant="secondary" size="lg" className="text-lg px-12 py-4">
@@ -96,7 +96,7 @@ export const CTA = () => {
         
         {/* Bottom disclaimer */}
         <p className="text-center text-xs text-muted-foreground mt-8 max-w-2xl mx-auto">
-          * Résultats basés sur l'analyse de 2,500+ sessions utilisateurs. 
+          * Résultats basés sur l'analyse de 300+ sessions utilisateurs. 
           Les performances individuelles peuvent varier selon l'usage et la morphologie.
         </p>
       </div>

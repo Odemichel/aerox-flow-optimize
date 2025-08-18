@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
 	darkMode: ["class"],
@@ -18,6 +19,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Grotesk', 'sans-serif'], // par exemple
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -75,6 +79,7 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+
 			keyframes: {
 				'accordion-down': {
 					from: {
@@ -100,6 +105,10 @@ export default {
 					'0%, 100%': { boxShadow: '0 0 20px hsl(var(--aerox-orange) / 0.3)' },
 					'50%': { boxShadow: '0 0 40px hsl(var(--aerox-orange) / 0.6)' }
 				},
+				'soft-glow': {
+					'0%, 100%': { boxShadow: '0 0 6px hsl(var(--primary) / 0.4)' },
+					'50%': { boxShadow: '0 0 12px hsl(var(--primary) / 0.6)' }
+				},
 				'gradient-shift': {
 					'0%, 100%': { backgroundPosition: '0% 50%' },
 					'50%': { backgroundPosition: '100% 50%' }
@@ -110,7 +119,9 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'float': 'float 3s ease-in-out infinite',
 				'glow': 'glow 2s ease-in-out infinite',
-				'gradient-shift': 'gradient-shift 3s ease-in-out infinite'
+				'gradient-shift': 'gradient-shift 3s ease-in-out infinite',
+				'soft-glow': 'soft-glow 4s ease-in-out infinite',
+
 			},
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
@@ -119,5 +130,5 @@ export default {
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [tailwindcssAnimate],
 } satisfies Config;
